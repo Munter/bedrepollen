@@ -1,4 +1,10 @@
 [build]
   base = "."
-  publish = "src/"
-  command = "echo 'default context'"
+  publish = "dist/"
+  command = "npm run build"
+  functions = "functions"
+
+[[redirects]]
+  from = '/api/*'
+  to = '/.netlify/functions/:splat'
+  status = 200
