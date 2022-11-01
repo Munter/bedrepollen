@@ -14,7 +14,7 @@
   "author": "Peter Müller <munter@fumle.dk>",
   "license": "ISC",
   "devDependencies": {
-    "assetgraph-builder": "^6.10.1",
+    "assetgraph-builder": "^9.2.0",
     "rimraf": "^2.6.3"
   }
 }
